@@ -1,11 +1,11 @@
 require 'formula'
 
 class Pficommon < Formula
-  url 'https://github.com/gwtnb/pficommon/tarball/mavericks-20140805'
+  url 'https://github.com/gwtnb/pficommon/tarball/mavericks-20140813'
   head 'https://github.com/pfi/pficommon.git'
   homepage 'http://pfi.github.io/pficommon/'
-  sha1 '06e877935acdc79e7fa2ccd269390a39f302a8f8'
-  version 'mavericks-20140805'
+  sha1 'b3be97c0a87ae8cf79228d751e4a36bdee4013af'
+  version 'mavericks-20140813'
 
   depends_on 'msgpack'
   depends_on 'pkg-config'
