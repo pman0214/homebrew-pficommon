@@ -7,7 +7,7 @@ class Pficommon < Formula
   sha1 'b3be97c0a87ae8cf79228d751e4a36bdee4013af'
   version 'mavericks-20140813'
 
-  depends_on 'msgpack'
+  depends_on 'msgpack059'
   depends_on 'pkg-config'
 
   def install
